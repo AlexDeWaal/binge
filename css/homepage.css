@@ -1,37 +1,20 @@
-/*============================ Body =================================*/
-
-#mainBody {
-    background-color: #000000;
-}
-
 .container-fluid {
-    background-color: transparent;
-}
-
-/*============================ Navigation =================================*/
-
-.navigation {
-    height: 83px;
     background-color: #000000;
-}
-
-.navbar {
-    float: left;
 }
 
 .logo {
-    width: 200px;
-    height: auto;
+    position: absolute;
 }
 
-.logo2 {
-    width: 100px;
+#logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
 }
-
-/*============================ Header Content =================================*/
 
 .carousel-item {
-    margin-top: 0;
     text-shadow: 2px 1px 10px #000000;
     background-position: center;
     background-size: cover;
@@ -39,68 +22,30 @@
 }
 
 .slide1 {
-    background-image: url(../img/eyes/eye5.jpg);
-}
-
-.welcome {
-    top: 40%;
-    color: #FFFFFF;
-}
-
-.welcome h1 {
-    font-weight: bold;
-}
-
-.welcome p {
-    font-weight: 400;
-}
-
-.btnSearch {
-    width: 40px;
-    height: 45px;
-    display: inline;
+    background-image: url(../img/eyes/eye3.jpg);
 }
 
 .slide2 {
     background-image: url(../img/movies/star_trek.jpg);
 }
 
-/*============================ Row Headings =================================*/
-
-.seriesHeading {
-    margin-top: 20px;
-    float: left;
-    width: 100%;
-}
-
-.seriesHeading h1 {
-    float: left;
-    color: #FFFFFF;
-}
-
-.seriesHeading h4 {
-    font-weight: 400;
-    color: #FFFFFF;
-    float: right;
-}
-
-/*============================ Cards =================================*/
-
 .movie-container {
-    margin-top: 15px;
+    margin: 0 auto;
+    margin-top: -15px;
     margin-bottom: 10px;
+    background-color: #000000;
 }
 
 .movie-card {
-    margin: 0.4%;
     position: relative;
+    margin-bottom: 20px;
     display: inline-block;
-    box-shadow: 0 -3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.3);
 }
 
 .image {
-    width: 220px;
-    height: 310px;
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
     background-image: url('http://www.coolingindia.in/uploads/2254/no%20image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,12 +60,6 @@
     width: auto;
     text-shadow: 2px 2px 4px #000000;
 }
-
-.series {
-    margin-top: -110px;
-}
-
-/*============================ Overlay =================================*/
 
 .plot {
   white-space: normal; 
