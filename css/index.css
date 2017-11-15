@@ -1,9 +1,8 @@
-* {
-  margin: 0;
-}
+
 body {
   background: black;
 }
+
 .pxlCount {
   text-align: center;
   color: tan;
@@ -137,6 +136,14 @@ body {
 .btn-primary {
     float: right;
     width: 100px;
+}
+
+#btn_login a{
+    color: white;
+}
+
+#btn_login a:hover{
+    text-decoration: none;
 }
 
 .not {
