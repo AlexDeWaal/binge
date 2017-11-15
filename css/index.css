@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+}
+body {
+  background: black;
+}
+.pxlCount {
+  text-align: center;
+  color: tan;
+}
+
+#bgImage {
+    background-image: url(../img/eyes/eye4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -150px;
+    margin-top: 0px;    
+    width: 100%;
+    background-position: center center;
+    
+}
+
+#mainImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    margin-top: 0px;  
+    width: 100%;
+}
+
+#logo {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -10px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#mainImage h2, p {
+    color: #FFFFFF;
+    width: inherit;
+    hyphens: auto;
+    margin-top: 10px;
+    text-shadow: 2px 1px 10px #000000;
+}
+
+
+.info {
+    float: left;
+    height: 270px;
+    width: auto;
+}
+
+#col1 {
+    float: left;
+    min-height: 270px;
+    left: 5%;
+    margin-right: 13.4%;
+    border: 5px solid #FFFFFF;
+}
+
+#col2 {
+    float: left;
+    min-height: 270px;
+    border: 5px solid #FFFFFF;
+}
+
+.col3 {
+    float: left;
+    left: 5%;
+    margin-top: 7%;
+    border: 5px solid #FFFFFF;
+}
+
+.devices {
+    margin-bottom: 10px;
+}
+
+.devices img {
+    vertical-align: baseline;
+}
+
+.iphone {
+    width: 15px;
+}
+
+.ipad {
+    width: 25px;
+}
+
+.macbook {
+    width: 60px;
+}
+
+.imac {
+    width: 60px;
+}
+
+.person {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+
+#mainImage h3 {
+    text-shadow: 2px 1px 20px #000000;
+}
+
+#arrow {
+    bottom: 0%;
+    margin: 0 auto;
+}
+
+
+#login h1 {
+    line-height: 100px;
+}
+
+#login {
+    background-color: white;
+    padding: 25px;
+    height: auto;
+    -webkit-transition: all 0.5s ease;
+}
+
+#login-form {
+    margin-bottom: 120px;
+}
+
+.btn-primary {
+    float: right;
+    width: 100px;
+}
+
+.not {
+    float: left;
+    padding: 6px;
+    margin-right: 5px;
+}
+
+#create {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.create-account {
+    float: left;
+}
+
+#more-info {
+    color: #000000;
+    right: 15%;
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    z-index: 10;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 38px;
+}
+
+.legal {
+    float: left;
+    vertical-align: middle;
+}
+
+.contact {
+    float: right;
+    vertical-align: middle;
+}
+

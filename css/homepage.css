@@ -1,0 +1,112 @@
+.container-fluid {
+    background-color: #000000;
+}
+
+.logo {
+    position: absolute;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.carousel-item {
+    text-shadow: 2px 1px 10px #000000;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.slide1 {
+    background-image: url(../img/eyes/eye3.jpg);
+}
+
+.slide2 {
+    background-image: url(../img/movies/star_trek.jpg);
+}
+
+.movie-container {
+    margin: 0 auto;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    background-color: #000000;
+}
+
+.movie-card {
+    position: relative;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.image {
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+    background-image: url('http://www.coolingindia.in/uploads/2254/no%20image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image h2 {
+    position: relative;
+    color: #FFFFFF;
+    bottom: -90%;
+    left: 5%;
+    font-size: 20px;
+    width: auto;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.plot {
+  white-space: normal; 
+  color: #FFFFFF;
+  font-size: 12px;
+  position: absolute;
+  width: 160px;
+  height: 300px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: none; 
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #142630;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.movie-card:hover .overlay {
+  height: 100%;
+}
+
+#bottomRow {
+    vertical-align: middle;
+}
+
+#watchLater {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+#playNow {
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/play.svg);
+}
