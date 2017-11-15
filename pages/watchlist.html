@@ -1,0 +1,283 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../bootstrap/3.3.6/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/watchlist.css">
+    <script src="../js/jquery/1.12.0/jquery.min.js"></script>
+    <script src="../js/watchlist.js"></script>
+    <script src="../bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav id="topnav" class="navbar navbar-inverse navbar-fixed-top">
+            <div id="layout" class="container">
+                <div id="navbar-header" class="navbar-header">
+                    <a href="navbar-brand" class="navbar-brand">
+                        <img src="../img/logos/logo_white.svg" alt="logo" class="logo">
+                    </a>
+                    <button class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar-items">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar-items" class="navbar-right navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="../homepage.html">Home</a>
+                        </li>
+                        <li><a href="library.html">Library</a></li>
+                        <li><a href="watchlist.html">Watchlist</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+    </header>
+
+    <div class="container main">
+       <h1>Watching</h1>
+        <div class="watching col-xs-12">
+            <div id="watching" class="one">
+                <div class="overlay">
+                    <div class="play">
+                        <img src="../img/play_2.svg" alt="play" id="play">
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="watching" class="two">
+                <div class="overlay">
+                    <div class="play">
+                        <img src="../img/play_2.svg" alt="play" id="play">
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="watchlist col-xs-12">
+            <h1>Watchlist</h1>
+            
+        <!--Supergirl Div-->
+        <div class="col-sm-12" id="item">
+            <div class="image1"></div>
+            <div class="title col-sm-3">
+                <h5 class="title1">Title</h5>
+                <p class="imdb1">IMDb:</p>
+                <p class="genre1">Genre:</p>
+                <button id="xs-btn1" type="button" class="btn btn-link visble-xs hidden-sm hidden-md hidden-lg"></button>
+            </div>
+            <div class="synopsis col-sm-5 hidden-xs">
+                <h5>Syinopsis</h5>
+                <p class="synopsis1">Plot</p>
+            </div>
+            <div class="delete col-sm-1">
+                <a href="#">&times;</a>
+            </div>
+            <div class="info col-sm-1">
+                <button id="info1" type="button" class="btn btn-link hidden-xs" data-toggle="modal" data-target="#trailerModal"></button>
+            </div>
+        </div>
+        
+        <!--Brooklyn Nine Nine Div-->
+        <div class="col-sm-12" id="item">
+            <div class="image2"></div>
+            <div class="title col-sm-3">
+                <h5 class="title2">Title</h5>
+                <p class="imdb2">IMDb:</p>
+                <p class="genre2">Genre:</p>
+                <button id="xs-btn2" type="button" class="btn btn-link visble-xs hidden-sm hidden-md hidden-lg"></button>
+            </div>
+            <div class="synopsis col-sm-5 hidden-xs">
+                <h5>Syinopsis</h5>
+                <p class="synopsis2">Plot</p>
+            </div>
+            <div class="delete col-sm-1">
+                <a href="#">&times;</a>
+            </div>
+            <div class="info col-sm-1">
+                <button id="info2" type="button" class="btn btn-link hidden-xs" data-toggle="modal" data-target="#trailerModal2"></button>
+            </div>
+        </div>
+        
+        <!--American Gods Div-->
+        <div class="col-sm-12" id="item">
+            <div class="image3"></div>
+            <div class="title col-sm-3">
+                <h5 class="title3">Title</h5>
+                <p class="imdb3">IMDb:</p>
+                <p class="genre3">Genre:</p>
+                <button id="xs-btn2" type="button" class="btn btn-link visble-xs hidden-sm hidden-md hidden-lg"></button>
+            </div>
+            <div class="synopsis col-sm-5 hidden-xs">
+                <h5>Syinopsis</h5>
+                <p class="synopsis3">Plot</p>
+            </div>
+            <div class="delete col-sm-1">
+                <a href="#">&times;</a>
+            </div>
+            <div class="info col-sm-1">
+                <button id="info3" type="button" class="btn btn-link hidden-xs" data-toggle="modal" data-target="#trailerModal3"></button>
+            </div>
+        </div>
+        
+        <!--Rick and Morty Div-->
+        <div class="col-sm-12" id="item">
+            <div class="image4"></div>
+            <div class="title col-sm-3">
+                <h5 class="title4">Title</h5>
+                <p class="imdb4">IMDb:</p>
+                <p class="genre4">Genre:</p>
+                <button id="xs-btn2" type="button" class="btn btn-link visble-xs hidden-sm hidden-md hidden-lg"></button>
+            </div>
+            <div class="synopsis col-sm-5 hidden-xs">
+                <h5>Syinopsis</h5>
+                <p class="synopsis4">Plot</p>
+            </div>
+            <div class="delete col-sm-1">
+                <a href="#">&times;</a>
+            </div>
+            <div class="info col-sm-1">
+                <button id="info4" type="button" class="btn btn-link hidden-xs" data-toggle="modal" data-target="#trailerModal4"></button>
+            </div>
+        </div>
+        
+        <!--Brooklyn Nine Nine Div-->
+        <div class="col-sm-12" id="item">
+            <div class="image5"></div>
+            <div class="title col-sm-3">
+                <h5 class="title5">Title</h5>
+                <p class="imdb5">IMDb:</p>
+                <p class="genre5">Genre:</p>
+                <button id="xs-btn2" type="button" class="btn btn-link visble-xs hidden-sm hidden-md hidden-lg"></button>
+            </div>
+            <div class="synopsis col-sm-5 hidden-xs">
+                <h5>Syinopsis</h5>
+                <p class="synopsis5">Plot</p>
+            </div>
+            <div class="delete col-sm-1">
+                <a href="#">&times;</a>
+            </div>
+            <div class="info col-sm-1">
+                <button id="info5" type="button" class="btn btn-link hidden-xs" data-toggle="modal" data-target="#trailerModal5"></button>
+            </div>
+        </div>
+        
+        
+        </div>
+        
+        <!--Supergirl Modal-->
+        <div class="modal fade" id="trailerModal" tabindex="-1" role="dialog" aria-labelledby="trailerModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title title1">Modal title</h5>
+              </div>
+              <div class="modal-body">
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mh8MYFadTmQ?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Brooklyn Nine Nine Modal-->
+        <div class="modal fade" id="trailerModal2" tabindex="-1" role="dialog" aria-labelledby="trailerModalLabel2" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title title2">Modal title</h5>
+              </div>
+              <div class="modal-body">
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GdlSE9ISRBE?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--American Gods Modal-->
+        <div class="modal fade" id="trailerModal3" tabindex="-1" role="dialog" aria-labelledby="trailerModalLabel3" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title title3">Modal title</h5>
+              </div>
+              <div class="modal-body">
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oyoXURn9oK0?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Rick and Morty Modal-->
+        <div class="modal fade" id="trailerModal4" tabindex="-1" role="dialog" aria-labelledby="trailerModalLabel4" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title title4">Modal title</h5>
+              </div>
+              <div class="modal-body">
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WNhH00OIPP0?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Black Mirror Modal-->
+        <div class="modal fade" id="trailerModal5" tabindex="-1" role="dialog" aria-labelledby="trailerModalLabel4" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title title5">Modal title</h5>
+              </div>
+              <div class="modal-body">
+                <div id="player">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jROLrhQkK78?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="footer">
+            <div id="more-info" class="form-group">
+                <button type="button" class="btn btn-link legal hidden-xs">Legal</button>
+                BINGE © 2017
+                <button type="button" class="btn btn-link contact hidden-xs">Contact Us</button>
+            </div>
+        </div>    
+    </div>
+    
+</body>
+</html>
